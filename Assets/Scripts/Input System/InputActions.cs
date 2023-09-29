@@ -29,7 +29,7 @@ public partial class @InputActions: IInputActionCollection2, IDisposable
             ""actions"": [
                 {
                     ""name"": ""Interact"",
-                    ""type"": ""PassThrough"",
+                    ""type"": ""Button"",
                     ""id"": ""034de86b-717d-428e-8c93-bc2df7411cbb"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
@@ -40,8 +40,8 @@ public partial class @InputActions: IInputActionCollection2, IDisposable
             ""bindings"": [
                 {
                     ""name"": """",
-                    ""id"": ""eaa0ec1a-931f-434c-ad4b-05f0c9e042ac"",
-                    ""path"": ""<Touchscreen>/primaryTouch/tap"",
+                    ""id"": ""5e5e0758-fb58-4b2f-abed-299fd23ec285"",
+                    ""path"": ""<Touchscreen>/touch0/tap"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -51,7 +51,7 @@ public partial class @InputActions: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""90b86614-5ece-42a9-ad52-df39f3827c3a"",
+                    ""id"": ""6ff969d3-eb6d-4a5c-a883-e535485bb3c5"",
                     ""path"": ""<Mouse>/leftButton"",
                     ""interactions"": """",
                     ""processors"": """",
