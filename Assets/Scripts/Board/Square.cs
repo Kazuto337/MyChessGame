@@ -4,11 +4,13 @@ using UnityEngine;
 
 public class Square : MonoBehaviour
 {
-    public Vector2Int boardCoordinate;
+    private Vector2Int boardCoordinate;
     public bool isSelected;
-    [SerializeField] Piece currentPiece;
+    public Piece currentPiece;
     Material outlineShader;
     Vector3 initialPosition;
+
+    public Vector2Int BoardCoordinate { get => boardCoordinate;}
 
     private void Start()
     {

@@ -6,9 +6,17 @@ using UnityEngine.InputSystem;
 
 public class BoardManager : MonoBehaviour
 {
+    public enum SelectionState
+    {
+        selection=0,
+        movement
+    }
+
+    [Header("GameStatus")]
     private Piece[,] chessBoard = new Piece[8, 8];
     [SerializeField] List<Square> squares;
-    Square currentSquareSelected;
+    Square currentSquare;
+    SelectionState selectionState = SelectionState.selection;
 
     PlayerInput playerInput;
     InputAction interactAction;
@@ -25,10 +33,19 @@ public class BoardManager : MonoBehaviour
     {
         interactAction.performed += SelectSquare;
     }
+    private void Start()
+    {
+        foreach (Square item in squares)
+        {
+            int x = item.BoardCoordinate.x;
+            int y = item.BoardCoordinate.y;
+
+            chessBoard[x, y] = item.currentPiece;
+        }
+    }
 
     public void SelectSquare(InputAction.CallbackContext context)
     {
-        print("Click");
 
         Vector2 touchPosition = new Vector2();
         if (Touchscreen.current != null)
@@ -43,29 +60,46 @@ public class BoardManager : MonoBehaviour
         Ray ray = _camera.ScreenPointToRay(touchPosition);
         RaycastHit hit;
 
-        if (Physics.Raycast(ray, out hit, 100f , 3))
+        if (!Physics.Raycast(ray, out hit, 100f))
         {
-            print(hit.collider.name);
-            if (currentSquareSelected != null)
-            {
-                if (hit.collider.gameObject != currentSquareSelected.gameObject)
-                {
-                    currentSquareSelected.isSelected = false; 
-                }
-            }
+            return;
+        }
 
-            if (currentSquareSelected != hit.collider.GetComponent<Square>() || currentSquareSelected == null)
-            {                
-                currentSquareSelected = hit.collider.GetComponent<Square>();
-                currentSquareSelected.isSelected = true;
-            }
-            else if (hit.collider.gameObject == gameObject)
-            {
-                currentSquareSelected = null;
-            }
+        if (hit.collider.TryGetComponent<Square>(out Square outputSquare))
+        {
+            SelectSquare(outputSquare);
+        }
+        else
+        {
+            DeselectSquare();
+        }
+    }
+
+    private void DeselectSquare()
+    {
+        currentSquare.isSelected = false;
+        currentSquare = null;
+    }
+    private void SelectSquare(Square selecetedSquare)
+    {
+        if (selecetedSquare == currentSquare)
+        {
+            DeselectSquare();
+        }
+
+        if (currentSquare != null)
+        {
+            currentSquare.isSelected = false; 
+        }
+        currentSquare = selecetedSquare;
+        currentSquare.isSelected = true;
+
+        if (selecetedSquare.currentPiece != null)
+        {
 
         }
     }
+
     public bool ValidateMovement(Piece piece, Vector2Int nextPosition)
     {
         bool obstacleFound = false;
