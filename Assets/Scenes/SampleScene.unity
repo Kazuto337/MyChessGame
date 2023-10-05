@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028334, g: 0.2257134, b: 0.30692226, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -200,7 +200,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 94153535}
   m_LocalRotation: {x: -0.9076734, y: 0.24321029, z: 0.08852134, w: 0.33036605}
-  m_LocalPosition: {x: 13.765197, y: 11.524967, z: 13.586819}
+  m_LocalPosition: {x: 8.265936, y: 13.957158, z: 15.62767}
   m_LocalScale: {x: 1, y: 1, z: -1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2032,7 +2032,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1181973194}
   m_LocalRotation: {x: -0.9076734, y: 0.24321029, z: 0.08852134, w: 0.33036605}
-  m_LocalPosition: {x: 8.265936, y: 13.957158, z: 15.62767}
+  m_LocalPosition: {x: 13.765197, y: 11.524967, z: 13.586819}
   m_LocalScale: {x: 1, y: 1, z: -1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5541,7 +5541,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0265e49afbf2034b9fe6252b616b7f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boardCoordinate: {x: 8, y: 7}
+  boardCoordinate: {x: 7, y: 6}
   isSelected: 0
   currentPiece: {fileID: 454990070}
 --- !u!33 &3359685147872885092
@@ -5726,7 +5726,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0265e49afbf2034b9fe6252b616b7f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boardCoordinate: {x: 4, y: 7}
+  boardCoordinate: {x: 3, y: 6}
   isSelected: 0
   currentPiece: {fileID: 1488104024}
 --- !u!33 &3827954292703511134
@@ -5838,7 +5838,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0265e49afbf2034b9fe6252b616b7f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boardCoordinate: {x: 8, y: 4}
+  boardCoordinate: {x: 7, y: 3}
   isSelected: 0
   currentPiece: {fileID: 0}
 --- !u!33 &3941659785256220104
@@ -5968,7 +5968,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0265e49afbf2034b9fe6252b616b7f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boardCoordinate: {x: 1, y: 8}
+  boardCoordinate: {x: 0, y: 7}
   isSelected: 0
   currentPiece: {fileID: 289525995}
 --- !u!4 &4351723498953184566
@@ -6011,7 +6011,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0265e49afbf2034b9fe6252b616b7f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boardCoordinate: {x: 6, y: 5}
+  boardCoordinate: {x: 5, y: 4}
   isSelected: 0
   currentPiece: {fileID: 0}
 --- !u!33 &4372108085525414170
@@ -6532,7 +6532,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0265e49afbf2034b9fe6252b616b7f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boardCoordinate: {x: 7, y: 3}
+  boardCoordinate: {x: 6, y: 2}
   isSelected: 0
   currentPiece: {fileID: 0}
 --- !u!4 &5334927363849581271
@@ -6575,7 +6575,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0265e49afbf2034b9fe6252b616b7f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boardCoordinate: {x: 7, y: 8}
+  boardCoordinate: {x: 6, y: 7}
   isSelected: 0
   currentPiece: {fileID: 2044725536}
 --- !u!4 &5353070593330547527
@@ -6618,9 +6618,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0265e49afbf2034b9fe6252b616b7f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boardCoordinate: {x: 2, y: 7}
+  boardCoordinate: {x: 1, y: 6}
   isSelected: 0
-  currentPiece: {fileID: 750264906}
+  currentPiece: {fileID: 1217846249}
 --- !u!33 &5398796833778411076
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -6654,7 +6654,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0265e49afbf2034b9fe6252b616b7f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boardCoordinate: {x: 2, y: 1}
+  boardCoordinate: {x: 1, y: 0}
   isSelected: 0
   currentPiece: {fileID: 3105932953261697724}
 --- !u!1 &5416055092309364519
@@ -6846,7 +6846,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0265e49afbf2034b9fe6252b616b7f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boardCoordinate: {x: 4, y: 1}
+  boardCoordinate: {x: 3, y: 0}
   isSelected: 0
   currentPiece: {fileID: 8632760917420202553}
 --- !u!23 &5628862082866955370
@@ -7083,7 +7083,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0265e49afbf2034b9fe6252b616b7f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boardCoordinate: {x: 1, y: 4}
+  boardCoordinate: {x: 0, y: 3}
   isSelected: 0
   currentPiece: {fileID: 0}
 --- !u!33 &5942238128105871661
@@ -7119,7 +7119,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0265e49afbf2034b9fe6252b616b7f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boardCoordinate: {x: 2, y: 6}
+  boardCoordinate: {x: 1, y: 5}
   isSelected: 0
   currentPiece: {fileID: 0}
 --- !u!1 &5952235111645999721
@@ -7272,7 +7272,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0265e49afbf2034b9fe6252b616b7f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boardCoordinate: {x: 3, y: 6}
+  boardCoordinate: {x: 2, y: 5}
   isSelected: 0
   currentPiece: {fileID: 0}
 --- !u!1 &6032848817154920416
@@ -7420,7 +7420,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0265e49afbf2034b9fe6252b616b7f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boardCoordinate: {x: 6, y: 7}
+  boardCoordinate: {x: 5, y: 6}
   isSelected: 0
   currentPiece: {fileID: 1314207077}
 --- !u!4 &6374694931659008763
@@ -7516,7 +7516,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0265e49afbf2034b9fe6252b616b7f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boardCoordinate: {x: 1, y: 2}
+  boardCoordinate: {x: 0, y: 1}
   isSelected: 0
   currentPiece: {fileID: 3827954292703511135}
 --- !u!4 &6630152569192465050
@@ -7602,7 +7602,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0265e49afbf2034b9fe6252b616b7f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boardCoordinate: {x: 8, y: 8}
+  boardCoordinate: {x: 7, y: 7}
   isSelected: 0
   currentPiece: {fileID: 452186763}
 --- !u!33 &6701099316134206691
@@ -7638,7 +7638,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0265e49afbf2034b9fe6252b616b7f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boardCoordinate: {x: 1, y: 1}
+  boardCoordinate: {x: 0, y: 0}
   isSelected: 0
   currentPiece: {fileID: 8420093553861194302}
 --- !u!4 &6747703612539580170
@@ -7681,9 +7681,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0265e49afbf2034b9fe6252b616b7f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boardCoordinate: {x: 5, y: 8}
+  boardCoordinate: {x: 4, y: 7}
   isSelected: 0
-  currentPiece: {fileID: 94153539}
+  currentPiece: {fileID: 1181973198}
 --- !u!4 &6752095748300814805
 Transform:
   m_ObjectHideFlags: 0
@@ -7862,7 +7862,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0265e49afbf2034b9fe6252b616b7f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boardCoordinate: {x: 3, y: 5}
+  boardCoordinate: {x: 2, y: 4}
   isSelected: 0
   currentPiece: {fileID: 0}
 --- !u!23 &6982368926944829831
@@ -7996,7 +7996,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0265e49afbf2034b9fe6252b616b7f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boardCoordinate: {x: 7, y: 1}
+  boardCoordinate: {x: 6, y: 0}
   isSelected: 0
   currentPiece: {fileID: 964874466}
 --- !u!1 &7080361390544063262
@@ -8039,6 +8039,71 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c2a5218f0a8f004da4479a40d18b849, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameSquares:
+  - {fileID: 6701099316134206693}
+  - {fileID: 6561251720202581066}
+  - {fileID: 8411618919815133838}
+  - {fileID: 5910636640125472015}
+  - {fileID: 7399106175001818765}
+  - {fileID: 7824846800925130512}
+  - {fileID: 7403706926971705502}
+  - {fileID: 4344690761594673899}
+  - {fileID: 5398796833778411078}
+  - {fileID: 7496714369466264413}
+  - {fileID: 8575186165266761469}
+  - {fileID: 8468935653074069635}
+  - {fileID: 8894508262542248211}
+  - {fileID: 5942238128105871663}
+  - {fileID: 5353070593330547529}
+  - {fileID: 7508639709431766908}
+  - {fileID: 9196530722770816196}
+  - {fileID: 8509190916032085441}
+  - {fileID: 9015496645350835534}
+  - {fileID: 8606553898355356722}
+  - {fileID: 6939836511922388651}
+  - {fileID: 6011259509500496340}
+  - {fileID: 7933037730048768170}
+  - {fileID: 7559611265802958563}
+  - {fileID: 5611709140728791563}
+  - {fileID: 7405623856737594498}
+  - {fileID: 7126786646738363680}
+  - {fileID: 8948304313639816155}
+  - {fileID: 9013700038194241067}
+  - {fileID: 9143452015341844417}
+  - {fileID: 3803619007851939018}
+  - {fileID: 8656197999714173844}
+  - {fileID: 8202047902198276879}
+  - {fileID: 8438501349380222098}
+  - {fileID: 8899589225555649886}
+  - {fileID: 8475852066434865904}
+  - {fileID: 7687217890557266485}
+  - {fileID: 8998753666510708219}
+  - {fileID: 9081620862280316912}
+  - {fileID: 6747703612539580172}
+  - {fileID: 8679615689339964161}
+  - {fileID: 9039749359102029941}
+  - {fileID: 8623706171260280136}
+  - {fileID: 7880895162013073581}
+  - {fileID: 4351723498953184568}
+  - {fileID: 8910820401318269911}
+  - {fileID: 6305564148708628892}
+  - {fileID: 8455026662330682448}
+  - {fileID: 7074195217267332002}
+  - {fileID: 8688401701585632676}
+  - {fileID: 5294009022473234649}
+  - {fileID: 8584773087809589592}
+  - {fileID: 8699061560850422140}
+  - {fileID: 9012745190131614157}
+  - {fileID: 8713396703847640652}
+  - {fileID: 5334927363849581273}
+  - {fileID: 8556362296809858294}
+  - {fileID: 8577973501661068363}
+  - {fileID: 8941438527719749207}
+  - {fileID: 3920835586348062291}
+  - {fileID: 7847841657666533266}
+  - {fileID: 8313516301390871938}
+  - {fileID: 3242165983599752951}
+  - {fileID: 6700149671416114615}
   squares:
   - {fileID: 6701099316134206693}
   - {fileID: 6561251720202581066}
@@ -8104,6 +8169,7 @@ MonoBehaviour:
   - {fileID: 8313516301390871938}
   - {fileID: 3242165983599752951}
   - {fileID: 6700149671416114615}
+  selectionState: 0
 --- !u!65 &7097720006884653692
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8281,7 +8347,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0265e49afbf2034b9fe6252b616b7f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boardCoordinate: {x: 4, y: 3}
+  boardCoordinate: {x: 3, y: 2}
   isSelected: 0
   currentPiece: {fileID: 0}
 --- !u!4 &7131188601296569519
@@ -8364,7 +8430,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0265e49afbf2034b9fe6252b616b7f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boardCoordinate: {x: 1, y: 5}
+  boardCoordinate: {x: 0, y: 4}
   isSelected: 0
   currentPiece: {fileID: 0}
 --- !u!1 &7403706926971705500
@@ -8412,7 +8478,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0265e49afbf2034b9fe6252b616b7f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boardCoordinate: {x: 1, y: 7}
+  boardCoordinate: {x: 0, y: 6}
   isSelected: 0
   currentPiece: {fileID: 1558982952}
 --- !u!4 &7405623856737594496
@@ -8455,7 +8521,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0265e49afbf2034b9fe6252b616b7f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boardCoordinate: {x: 4, y: 2}
+  boardCoordinate: {x: 3, y: 1}
   isSelected: 0
   currentPiece: {fileID: 178386390}
 --- !u!23 &7496714369466264411
@@ -8526,7 +8592,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0265e49afbf2034b9fe6252b616b7f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boardCoordinate: {x: 2, y: 2}
+  boardCoordinate: {x: 1, y: 1}
   isSelected: 0
   currentPiece: {fileID: 750264906}
 --- !u!1 &7508639709431766906
@@ -8574,7 +8640,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0265e49afbf2034b9fe6252b616b7f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boardCoordinate: {x: 2, y: 8}
+  boardCoordinate: {x: 1, y: 7}
   isSelected: 0
   currentPiece: {fileID: 952424470}
 --- !u!4 &7519637031617398118
@@ -8637,7 +8703,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0265e49afbf2034b9fe6252b616b7f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boardCoordinate: {x: 3, y: 8}
+  boardCoordinate: {x: 2, y: 7}
   isSelected: 0
   currentPiece: {fileID: 440763783}
 --- !u!1 &7637875589859026463
@@ -8810,7 +8876,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0265e49afbf2034b9fe6252b616b7f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boardCoordinate: {x: 5, y: 5}
+  boardCoordinate: {x: 4, y: 4}
   isSelected: 0
   currentPiece: {fileID: 0}
 --- !u!33 &7713631865169275086
@@ -8914,7 +8980,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0265e49afbf2034b9fe6252b616b7f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boardCoordinate: {x: 1, y: 6}
+  boardCoordinate: {x: 0, y: 5}
   isSelected: 0
   currentPiece: {fileID: 0}
 --- !u!1 &7847841657666533264
@@ -8962,7 +9028,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0265e49afbf2034b9fe6252b616b7f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boardCoordinate: {x: 8, y: 5}
+  boardCoordinate: {x: 7, y: 4}
   isSelected: 0
   currentPiece: {fileID: 0}
 --- !u!1 &7880895162013073579
@@ -9010,7 +9076,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0265e49afbf2034b9fe6252b616b7f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boardCoordinate: {x: 6, y: 4}
+  boardCoordinate: {x: 5, y: 3}
   isSelected: 0
   currentPiece: {fileID: 0}
 --- !u!1 &7919183149759610109
@@ -9066,7 +9132,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0265e49afbf2034b9fe6252b616b7f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boardCoordinate: {x: 3, y: 7}
+  boardCoordinate: {x: 2, y: 6}
   isSelected: 0
   currentPiece: {fileID: 797904204}
 --- !u!23 &8025025506320298954
@@ -9257,7 +9323,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0265e49afbf2034b9fe6252b616b7f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boardCoordinate: {x: 5, y: 1}
+  boardCoordinate: {x: 4, y: 0}
   isSelected: 0
   currentPiece: {fileID: 8657801764012817396}
 --- !u!23 &8311274711707338609
@@ -9343,7 +9409,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0265e49afbf2034b9fe6252b616b7f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boardCoordinate: {x: 8, y: 6}
+  boardCoordinate: {x: 7, y: 5}
   isSelected: 0
   currentPiece: {fileID: 0}
 --- !u!4 &8321834155214577400
@@ -9473,7 +9539,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0265e49afbf2034b9fe6252b616b7f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boardCoordinate: {x: 1, y: 3}
+  boardCoordinate: {x: 0, y: 2}
   isSelected: 0
   currentPiece: {fileID: 0}
 --- !u!33 &8420093553861194301
@@ -9628,7 +9694,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0265e49afbf2034b9fe6252b616b7f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boardCoordinate: {x: 5, y: 2}
+  boardCoordinate: {x: 4, y: 1}
   isSelected: 0
   currentPiece: {fileID: 1820662021}
 --- !u!33 &8455026662330682446
@@ -9664,7 +9730,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0265e49afbf2034b9fe6252b616b7f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boardCoordinate: {x: 6, y: 8}
+  boardCoordinate: {x: 5, y: 7}
   isSelected: 0
   currentPiece: {fileID: 1374687535}
 --- !u!4 &8468935653074069633
@@ -9707,7 +9773,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0265e49afbf2034b9fe6252b616b7f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boardCoordinate: {x: 2, y: 4}
+  boardCoordinate: {x: 1, y: 3}
   isSelected: 0
   currentPiece: {fileID: 0}
 --- !u!23 &8475852066434865902
@@ -9778,7 +9844,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0265e49afbf2034b9fe6252b616b7f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boardCoordinate: {x: 5, y: 4}
+  boardCoordinate: {x: 4, y: 3}
   isSelected: 0
   currentPiece: {fileID: 0}
 --- !u!33 &8509190916032085439
@@ -9814,7 +9880,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0265e49afbf2034b9fe6252b616b7f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boardCoordinate: {x: 3, y: 2}
+  boardCoordinate: {x: 2, y: 1}
   isSelected: 0
   currentPiece: {fileID: 503863036}
 --- !u!33 &8542492647889447184
@@ -9893,7 +9959,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0265e49afbf2034b9fe6252b616b7f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boardCoordinate: {x: 8, y: 1}
+  boardCoordinate: {x: 7, y: 0}
   isSelected: 0
   currentPiece: {fileID: 1203570991}
 --- !u!1 &8575186165266761467
@@ -9941,7 +10007,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0265e49afbf2034b9fe6252b616b7f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boardCoordinate: {x: 2, y: 3}
+  boardCoordinate: {x: 1, y: 2}
   isSelected: 0
   currentPiece: {fileID: 0}
 --- !u!1 &8577973501661068361
@@ -9989,7 +10055,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0265e49afbf2034b9fe6252b616b7f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boardCoordinate: {x: 8, y: 2}
+  boardCoordinate: {x: 7, y: 1}
   isSelected: 0
   currentPiece: {fileID: 266154996}
 --- !u!1 &8584773087809589590
@@ -10037,7 +10103,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0265e49afbf2034b9fe6252b616b7f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boardCoordinate: {x: 7, y: 4}
+  boardCoordinate: {x: 6, y: 3}
   isSelected: 0
   currentPiece: {fileID: 0}
 --- !u!23 &8606553898355356720
@@ -10108,7 +10174,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0265e49afbf2034b9fe6252b616b7f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boardCoordinate: {x: 3, y: 4}
+  boardCoordinate: {x: 2, y: 3}
   isSelected: 0
   currentPiece: {fileID: 0}
 --- !u!23 &8623706171260280134
@@ -10179,7 +10245,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0265e49afbf2034b9fe6252b616b7f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boardCoordinate: {x: 6, y: 3}
+  boardCoordinate: {x: 5, y: 2}
   isSelected: 0
   currentPiece: {fileID: 0}
 --- !u!33 &8632760917420202552
@@ -10236,9 +10302,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0265e49afbf2034b9fe6252b616b7f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boardCoordinate: {x: 4, y: 8}
+  boardCoordinate: {x: 3, y: 7}
   isSelected: 0
-  currentPiece: {fileID: 1181973198}
+  currentPiece: {fileID: 94153539}
 --- !u!33 &8657801764012817395
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -10305,7 +10371,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0265e49afbf2034b9fe6252b616b7f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boardCoordinate: {x: 6, y: 1}
+  boardCoordinate: {x: 5, y: 0}
   isSelected: 0
   currentPiece: {fileID: 1504136586}
 --- !u!1 &8688401701585632674
@@ -10353,7 +10419,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0265e49afbf2034b9fe6252b616b7f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boardCoordinate: {x: 7, y: 2}
+  boardCoordinate: {x: 6, y: 1}
   isSelected: 0
   currentPiece: {fileID: 545687413}
 --- !u!4 &8699061560850422138
@@ -10396,7 +10462,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0265e49afbf2034b9fe6252b616b7f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boardCoordinate: {x: 7, y: 5}
+  boardCoordinate: {x: 6, y: 4}
   isSelected: 0
   currentPiece: {fileID: 0}
 --- !u!1 &8713396703847640650
@@ -10444,7 +10510,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0265e49afbf2034b9fe6252b616b7f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boardCoordinate: {x: 7, y: 7}
+  boardCoordinate: {x: 6, y: 6}
   isSelected: 0
   currentPiece: {fileID: 536680192}
 --- !u!23 &8822876231552203567
@@ -10586,7 +10652,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0265e49afbf2034b9fe6252b616b7f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boardCoordinate: {x: 2, y: 5}
+  boardCoordinate: {x: 1, y: 4}
   isSelected: 0
   currentPiece: {fileID: 0}
 --- !u!4 &8899589225555649884
@@ -10629,7 +10695,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0265e49afbf2034b9fe6252b616b7f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boardCoordinate: {x: 5, y: 3}
+  boardCoordinate: {x: 4, y: 2}
   isSelected: 0
   currentPiece: {fileID: 0}
 --- !u!1 &8910820401318269909
@@ -10677,7 +10743,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0265e49afbf2034b9fe6252b616b7f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boardCoordinate: {x: 6, y: 6}
+  boardCoordinate: {x: 5, y: 5}
   isSelected: 0
   currentPiece: {fileID: 0}
 --- !u!4 &8941438527719749205
@@ -10720,7 +10786,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0265e49afbf2034b9fe6252b616b7f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boardCoordinate: {x: 8, y: 3}
+  boardCoordinate: {x: 7, y: 2}
   isSelected: 0
   currentPiece: {fileID: 0}
 --- !u!23 &8948304313639816153
@@ -10791,7 +10857,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0265e49afbf2034b9fe6252b616b7f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boardCoordinate: {x: 4, y: 4}
+  boardCoordinate: {x: 3, y: 3}
   isSelected: 0
   currentPiece: {fileID: 0}
 --- !u!1 &8998753666510708217
@@ -10839,7 +10905,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0265e49afbf2034b9fe6252b616b7f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boardCoordinate: {x: 5, y: 6}
+  boardCoordinate: {x: 4, y: 5}
   isSelected: 0
   currentPiece: {fileID: 0}
 --- !u!23 &9012745190131614155
@@ -10910,7 +10976,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0265e49afbf2034b9fe6252b616b7f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boardCoordinate: {x: 7, y: 6}
+  boardCoordinate: {x: 6, y: 5}
   isSelected: 0
   currentPiece: {fileID: 0}
 --- !u!33 &9013700038194241065
@@ -10946,7 +11012,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0265e49afbf2034b9fe6252b616b7f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boardCoordinate: {x: 4, y: 5}
+  boardCoordinate: {x: 3, y: 4}
   isSelected: 0
   currentPiece: {fileID: 0}
 --- !u!33 &9015496645350835532
@@ -10982,7 +11048,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0265e49afbf2034b9fe6252b616b7f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boardCoordinate: {x: 3, y: 3}
+  boardCoordinate: {x: 2, y: 2}
   isSelected: 0
   currentPiece: {fileID: 0}
 --- !u!4 &9039749359102029939
@@ -11025,7 +11091,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0265e49afbf2034b9fe6252b616b7f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boardCoordinate: {x: 6, y: 2}
+  boardCoordinate: {x: 5, y: 1}
   isSelected: 0
   currentPiece: {fileID: 1127101854}
 --- !u!33 &9081620862280316910
@@ -11061,7 +11127,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0265e49afbf2034b9fe6252b616b7f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boardCoordinate: {x: 5, y: 7}
+  boardCoordinate: {x: 4, y: 6}
   isSelected: 0
   currentPiece: {fileID: 931429730}
 --- !u!4 &9143452015341844415
@@ -11104,7 +11170,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0265e49afbf2034b9fe6252b616b7f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boardCoordinate: {x: 4, y: 6}
+  boardCoordinate: {x: 3, y: 5}
   isSelected: 0
   currentPiece: {fileID: 0}
 --- !u!4 &9157422166922512549
@@ -11180,6 +11246,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0265e49afbf2034b9fe6252b616b7f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boardCoordinate: {x: 3, y: 2}
+  boardCoordinate: {x: 2, y: 0}
   isSelected: 0
   currentPiece: {fileID: 9157422166922512550}

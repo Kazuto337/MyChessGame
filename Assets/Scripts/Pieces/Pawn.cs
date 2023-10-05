@@ -10,8 +10,13 @@ public class Pawn : Piece
     }
     public override bool ValidateMovement(Vector2Int nextPosition)
     {
-        float deltaX = Mathf.Abs(nextPosition.x - CurrentPositionInTable.x);
-        float deltaY = Mathf.Abs(nextPosition.y - CurrentPositionInTable.y);
+        float deltaX = nextPosition.x - CurrentPositionInBoard.x;
+        float deltaY = nextPosition.y - CurrentPositionInBoard.y;
+
+        if (team == PiecesTeams.Black)
+        {
+            deltaY *= -1;
+        }
 
         return (deltaX == MovementRange.x && deltaY == MovementRange.y);
     }

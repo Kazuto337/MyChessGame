@@ -4,18 +4,33 @@ using UnityEngine;
 
 public class Square : MonoBehaviour
 {
-    private Vector2Int boardCoordinate;
+    [SerializeField] private Vector2Int boardCoordinate;
     public bool isSelected;
-    public Piece currentPiece;
+    [SerializeField] private Piece currentPiece;
     Material outlineShader;
     Vector3 initialPosition;
 
     public Vector2Int BoardCoordinate { get => boardCoordinate;}
+    public Piece CurrentPiece { get => currentPiece;}
 
     private void Start()
     {
         outlineShader = GetComponent<Renderer>().materials[1];
         initialPosition = transform.position;
+
+        if (currentPiece != null)
+        {
+            currentPiece.CurrentPositionInBoard = boardCoordinate; 
+        }
+    }
+
+    public void ChangeCurrentPiece(Piece newPiece)
+    {
+        currentPiece = newPiece;
+    }
+    public void ClearPiece()
+    {
+        currentPiece = null;
     }
 
     private void Update()

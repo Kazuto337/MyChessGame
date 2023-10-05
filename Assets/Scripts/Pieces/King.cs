@@ -11,9 +11,9 @@ public class King : Piece
 
     public override bool ValidateMovement(Vector2Int nextPosition)
     {
-        int deltaX = Mathf.Abs(nextPosition.x - CurrentPositionInTable.x);
-        int deltaY = Mathf.Abs(nextPosition.y - CurrentPositionInTable.y);
+        int deltaX = Mathf.Abs(nextPosition.x - CurrentPositionInBoard.x);
+        int deltaY = Mathf.Abs(nextPosition.y - CurrentPositionInBoard.y);
 
-        return (deltaX >= MovementRange.x) && (deltaY >= MovementRange.y) && (deltaX > 0 || deltaY > 0);
+        return ((deltaX <= MovementRange.x) && (deltaY <= MovementRange.y));
     }
 }

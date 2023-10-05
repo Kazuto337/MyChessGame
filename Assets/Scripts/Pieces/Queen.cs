@@ -11,8 +11,8 @@ public class Queen : Piece
 
     public override bool ValidateMovement(Vector2Int nextPosition)
     {
-        int deltaX = Mathf.Abs(nextPosition.x - CurrentPositionInTable.x);
-        int deltaY = Mathf.Abs(nextPosition.y - CurrentPositionInTable.y);
+        int deltaX = Mathf.Abs(nextPosition.x - CurrentPositionInBoard.x);
+        int deltaY = Mathf.Abs(nextPosition.y - CurrentPositionInBoard.y);
 
         if ((deltaX > 0 && deltaY == 0) || (deltaX == 0 && deltaY > 0))
         {

@@ -11,8 +11,8 @@ public class Rook : Piece
 
     public override bool ValidateMovement(Vector2Int nextPosition)
     {
-        float deltaX = Mathf.Abs(nextPosition.x - CurrentPositionInTable.x);
-        float deltaY = Mathf.Abs(nextPosition.y - CurrentPositionInTable.y);
+        float deltaX = Mathf.Abs(nextPosition.x - CurrentPositionInBoard.x);
+        float deltaY = Mathf.Abs(nextPosition.y - CurrentPositionInBoard.y);
 
         return (deltaX == 0 && deltaY > 0) || (deltaX > 0 && deltaY == 0);
     }
