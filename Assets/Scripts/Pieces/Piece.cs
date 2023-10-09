@@ -8,11 +8,10 @@ public enum PiecesTeams
 }
 public abstract class Piece : MonoBehaviour
 {
-    private Vector2Int movementRange;
+    protected Vector2Int movementRange;
     private Vector2Int currentPositionInBoard;
     [SerializeField] protected PiecesTeams team;
 
-    public Vector2Int MovementRange { get => movementRange; set => movementRange = value; }
     public Vector2Int CurrentPositionInBoard { get => currentPositionInBoard; set => currentPositionInBoard = value; }
     public PiecesTeams Team { get => team; }
 

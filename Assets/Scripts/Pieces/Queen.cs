@@ -6,7 +6,7 @@ public class Queen : Piece
 {
     private void Start()
     {
-        MovementRange = new Vector2Int(7, 7);
+        movementRange = new Vector2Int(7, 7);
     }
 
     public override bool ValidateMovement(Vector2Int nextPosition)

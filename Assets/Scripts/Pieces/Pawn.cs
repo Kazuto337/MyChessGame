@@ -4,9 +4,23 @@ using UnityEngine;
 
 public class Pawn : Piece
 {
+    private bool firstMovement;
     private void Start()
     {
-        MovementRange = new Vector2Int(0, 1);
+        firstMovement = true;
+    }
+    private void Update()
+    {
+        switch (firstMovement)
+        {
+            case true:
+                movementRange = new Vector2Int(0, 2);
+                break;
+
+            case false:
+                movementRange = new Vector2Int(0, 1);
+                break;
+        }
     }
     public override bool ValidateMovement(Vector2Int nextPosition)
     {
@@ -18,6 +32,12 @@ public class Pawn : Piece
             deltaY *= -1;
         }
 
-        return (deltaX == MovementRange.x && deltaY == MovementRange.y);
+        if (deltaX == movementRange.x && (deltaY >= 1 && deltaY <= movementRange.y))
+        {
+            firstMovement = false;
+            return true;
+        }
+        else return false;
+
     }
 }

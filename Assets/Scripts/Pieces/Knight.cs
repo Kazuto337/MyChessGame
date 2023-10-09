@@ -6,7 +6,7 @@ public class Knight : Piece
 {
     void Start()
     {
-        MovementRange = new Vector2Int(1, 2);
+        movementRange = new Vector2Int(1, 2);
     }
 
     public override bool ValidateMovement(Vector2Int nextPosition)
@@ -14,6 +14,6 @@ public class Knight : Piece
         int deltaX = Mathf.Abs(nextPosition.x - CurrentPositionInBoard.x);
         int deltaY = Mathf.Abs(nextPosition.y - CurrentPositionInBoard.y);
 
-        return (deltaX == MovementRange.x && deltaY == MovementRange.y) || (deltaX == MovementRange.y && deltaY == MovementRange.x);
+        return (deltaX == movementRange.x && deltaY == movementRange.y) || (deltaX == movementRange.y && deltaY == movementRange.x);
     }
 }
